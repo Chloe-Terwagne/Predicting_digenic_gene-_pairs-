@@ -22,7 +22,7 @@ import time
 from mrmr import mrmr_classif
 
 # CONSTANT -------------------------------------------------------------------------------------------------------------
-PATH_DATASET = "/Users/chloe/Desktop/master_thesis/master_thesis/predicting_digenic_disease_genes/data/generated_df/final_dataframes/train_sets/part_1_train_set_dataset_A_10640_16_07.csv"
+PATH_DATASET = "path/dataset.csv"
 REMOVE_PHENOTYPE = False  # Set to true removed phenotypic features
 MRMR = False  # Set to True reduce the number of feature to NB_MRMR_FEATURES by MRMR
 NB_MRMR_FEATURES = 9
